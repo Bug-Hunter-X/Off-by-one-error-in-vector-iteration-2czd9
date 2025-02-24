@@ -1,0 +1,1 @@
+This repository demonstrates a common off-by-one error in C++ when iterating through a `std::vector`.  The `bug.cpp` file contains the erroneous code which attempts to access an element beyond the vector's bounds, resulting in undefined behavior.  The corrected code is provided in `bugSolution.cpp`, illustrating the proper way to iterate within the valid range of the vector.
